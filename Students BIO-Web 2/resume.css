@@ -1,0 +1,71 @@
+/*inheritance*/
+body{ 
+    background:radial-gradient( white, #efd9c1 );
+}
+hr{
+    width: 400px;
+    float: left;
+    margin:0;
+}
+footer{
+    text-align: center;
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+div nav li{
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav_resume{
+    padding-bottom: 2px;
+    border-bottom: 4px solid #cccbc67a;
+}
+.nav_home,.nav_resume, .nav_assgm, .nav_contact, .nav_aboutme{
+	color:  rgba(165, 42, 42, 0.582);
+}
+.nav_home:hover, .nav_resume:hover,  .nav_assgm:hover, .nav_contact:hover, .nav_aboutme:hover{
+	transition: .2s;
+	-webkit-text-stroke: 1px rgba(165, 42, 42, 0.582);
+	padding-bottom: 2px;
+	border-bottom: 4px solid #cccbc67a;
+}
+a:link {
+    text-decoration: none;
+}
+/* inheritance */
+.title{
+    width: 85%;
+    margin: 3em auto 0;
+    display: flex;
+    flex-direction: row;
+}
+.title-img{
+    width: 100px;
+    height: 100px;
+}
+.title-name{
+    font-family: Comic Sans MS;
+    align-items:center;
+    margin: auto ;
+    font-size: 60px;
+    color: #c7d8c6;
+}
+hr.hr{
+    border-top: solid 2px #c7d8c6;
+    width: 45%;
+    margin-left:11%;
+
+}
+.element-list{
+    padding-top: 30px;
+    font-size: 20px;
+}
+.element-list ul li{
+    font-family: sans-serif;
+    list-style-type: circle;
+}
